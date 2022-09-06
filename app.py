@@ -22,4 +22,5 @@ def scrape():
    return redirect('/', code=302)
 
 if __name__ == "__main__":
-   app.run()
+   app.run() # debug=True for the developers. 
+   # Lots shows up in the terminal that won't be seen on the main page
